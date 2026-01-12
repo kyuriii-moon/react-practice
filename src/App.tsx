@@ -4,6 +4,7 @@ import React from 'react';
 import './App.css';
 import { UserInfo } from './UserInfo';
 import { MyContext } from './context';
+import { PersonInfo } from './PersonInfo';
 
 // state, props, context
 function App() {
@@ -35,6 +36,7 @@ function App() {
         onChange={handleAgeChange}
       />
       <UserInfo />
+      <PersonInfo name={name} age={age} />
     </MyContext.Provider>
   );
 }
