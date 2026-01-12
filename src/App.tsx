@@ -3,7 +3,9 @@ import React from 'react';
 
 import './App.css';
 import { UserInfo } from './UserInfo';
+import { MyContext } from './context';
 
+// state, props, context
 function App() {
   // state값은 state 함수를 통해서만 변경해야한다.
   // setState 함수 호출시 해당 컴포넌트가 재랜더링 된다.
@@ -19,7 +21,7 @@ function App() {
   };
 
   return (
-    <>
+    <MyContext.Provider value={{ name, age }}>
       <input
         className="border p-1.5"
         type="text"
@@ -32,8 +34,8 @@ function App() {
         placeholder="나이를 입력하세요."
         onChange={handleAgeChange}
       />
-      <UserInfo name={name} age={age} />
-    </>
+      <UserInfo />
+    </MyContext.Provider>
   );
 }
 
