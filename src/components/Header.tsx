@@ -2,10 +2,10 @@ import { Link } from 'react-router';
 
 export function Header() {
   return (
-    <div>
+    <div className="flex items-center justify-between p-4 bg-slate-300 gap-3">
       <div>Logo</div>
       <nav>
-        <ul>
+        <ul className="flex flex-row gap-4">
           <li>
             <Link to="/" className="text-slate-300 hover:text-slate-400">
               홈
