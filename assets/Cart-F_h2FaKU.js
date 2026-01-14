@@ -1,0 +1,1 @@
+import{j as r}from"./index-CGUFDGTD.js";import{H as t,C as s,F as e}from"./Header-BMB6Sk2G.js";function n(){return r.jsxs("div",{children:[r.jsx(t,{}),r.jsx(s,{children:"Cart Page"}),r.jsx(e,{}),";"]})}export{n as default};

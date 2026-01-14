@@ -1,0 +1,1 @@
+import{u as t,j as e}from"./index-CGUFDGTD.js";import{H as o,C as a,F as r}from"./Header-BMB6Sk2G.js";function x(){const s=t();return e.jsxs("div",{children:[e.jsx(o,{}),e.jsxs(a,{children:["Home Page",e.jsx("button",{onClick:()=>s("/cart"),children:"장바구니로 이동"})]}),e.jsx(r,{})]})}export{x as default};

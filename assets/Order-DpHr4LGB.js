@@ -1,0 +1,1 @@
+import{j as r}from"./index-CGUFDGTD.js";import{H as e,C as s,F as t}from"./Header-BMB6Sk2G.js";function n(){return r.jsxs("div",{children:[r.jsx(e,{}),r.jsx(s,{children:"Order Page"}),r.jsx(t,{})]})}export{n as default};
