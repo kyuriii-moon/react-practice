@@ -23,10 +23,11 @@ const Trending = React.lazy(() => import('./pages/concerts/Trending'));
 const UseCallback = React.lazy(() => import('./pages/UseCallback'));
 const UseMemoExample = React.lazy(() => import('./pages/UseMemoExample'));
 const Condition = React.lazy(() => import('./pages/Condition'));
+const UseEffectExample = React.lazy(() => import('./pages/UseEffectExample'));
 
 function App() {
   return (
-    <BrowserRouter basename="/my-react-app">
+    <BrowserRouter basename="/react-practice">
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route index element={<Home />} />
@@ -41,6 +42,7 @@ function App() {
           <Route path="usecallback" element={<UseCallback />} />
           <Route path="useMemoExample" element={<UseMemoExample />} />
           <Route path="condition" element={<Condition />} />
+          <Route path="useEffectExample" element={<UseEffectExample />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
