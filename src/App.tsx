@@ -26,7 +26,7 @@ const Condition = React.lazy(() => import('./pages/Condition'));
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/my-react-app">
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route index element={<Home />} />
