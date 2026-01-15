@@ -1,7 +1,9 @@
 import React, { Suspense } from 'react';
+
 import { BrowserRouter, Route, Routes } from 'react-router';
 
 import './App.css';
+
 // import Home from './pages/Home';
 // import ProductDetail from './pages/ProductDetail';
 // import Cart from './pages/Cart';
@@ -28,7 +30,7 @@ const UserListPage = React.lazy(() => import('./pages/UserListPage'));
 
 function App() {
   return (
-    <BrowserRouter basename="/react-practice">
+    <BrowserRouter basename="/my-react-app">
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route index element={<Home />} />
