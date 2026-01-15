@@ -24,6 +24,7 @@ const UseCallback = React.lazy(() => import('./pages/UseCallback'));
 const UseMemoExample = React.lazy(() => import('./pages/UseMemoExample'));
 const Condition = React.lazy(() => import('./pages/Condition'));
 const UseEffectExample = React.lazy(() => import('./pages/UseEffectExample'));
+const UserListPage = React.lazy(() => import('./pages/UserListPage'));
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path="useMemoExample" element={<UseMemoExample />} />
           <Route path="condition" element={<Condition />} />
           <Route path="useEffectExample" element={<UseEffectExample />} />
+          <Route path="user-list" element={<UserListPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
