@@ -9,7 +9,7 @@ export default function NotFound() {
   return (
     <div>
       <Header />
-      <Content>
+      <Content className="flex flex-col gap-5">
         404 Not Found Page
         <button onClick={() => navigate('/')}>홈으로 이동 </button>
       </Content>
