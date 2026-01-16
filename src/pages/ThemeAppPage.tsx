@@ -10,3 +10,4 @@ export default function ThemeAppPage() {
       </LangProvider>
     </ThemeProvider>
   );
+}

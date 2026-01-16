@@ -23,3 +23,4 @@ export function UserHeader({ users, isLoading, fetchUsers }: UserHeaderProps) {
       </button>
     </div>
   );
+}

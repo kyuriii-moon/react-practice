@@ -32,7 +32,7 @@ const ThemeAppPage = React.lazy(() => import('@/pages/ThemeAppPage'));
 
 function App() {
   return (
-    <BrowserRouter basename="/my-react-app">
+    <BrowserRouter basename="/react-practice">
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route index element={<Home />} />
